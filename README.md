@@ -4,10 +4,9 @@ The lights-out game is developed in Windows Forms C# .NET Core 3.1 .
 
 
 ## Instructions
-
 1. Clone the repository.
 
-\
+
 How to run?\
 Running this application is simple.\
 2. You just need to click on 
