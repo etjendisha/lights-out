@@ -61,16 +61,16 @@ namespace lights_out
             // gridLabel
             // 
             this.gridLabel.AutoSize = true;
-            this.gridLabel.Location = new System.Drawing.Point(12, 843);
+            this.gridLabel.Location = new System.Drawing.Point(0, 839);
             this.gridLabel.Name = "gridLabel";
-            this.gridLabel.Size = new System.Drawing.Size(40, 20);
+            this.gridLabel.Size = new System.Drawing.Size(103, 20);
             this.gridLabel.TabIndex = 1;
-            this.gridLabel.Text = "Grid:";
+            this.gridLabel.Text = "Size of matrix:";
             // 
             // xLabel
             // 
             this.xLabel.AutoSize = true;
-            this.xLabel.Location = new System.Drawing.Point(132, 843);
+            this.xLabel.Location = new System.Drawing.Point(195, 839);
             this.xLabel.Name = "xLabel";
             this.xLabel.Size = new System.Drawing.Size(16, 20);
             this.xLabel.TabIndex = 2;
@@ -78,7 +78,7 @@ namespace lights_out
             // 
             // gridY
             // 
-            this.gridY.Location = new System.Drawing.Point(154, 840);
+            this.gridY.Location = new System.Drawing.Point(217, 837);
             this.gridY.Name = "gridY";
             this.gridY.Size = new System.Drawing.Size(73, 27);
             this.gridY.TabIndex = 7;
@@ -86,7 +86,7 @@ namespace lights_out
             // 
             // gridX
             // 
-            this.gridX.Location = new System.Drawing.Point(58, 840);
+            this.gridX.Location = new System.Drawing.Point(116, 837);
             this.gridX.Name = "gridX";
             this.gridX.Size = new System.Drawing.Size(73, 27);
             this.gridX.TabIndex = 6;
@@ -104,7 +104,7 @@ namespace lights_out
             // 
             // generateButton
             // 
-            this.generateButton.Location = new System.Drawing.Point(262, 837);
+            this.generateButton.Location = new System.Drawing.Point(315, 837);
             this.generateButton.Name = "generateButton";
             this.generateButton.Size = new System.Drawing.Size(88, 31);
             this.generateButton.TabIndex = 0;
