@@ -37,6 +37,7 @@ namespace lights_out
             this.gridX = new System.Windows.Forms.NumericUpDown();
             this.restartButton = new System.Windows.Forms.Button();
             this.generateButton = new System.Windows.Forms.Button();
+            this.movesCounter = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.gridY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridX)).BeginInit();
             this.SuspendLayout();
@@ -51,12 +52,11 @@ namespace lights_out
             // movesLabel
             // 
             this.movesLabel.AutoSize = true;
-            this.movesLabel.Location = new System.Drawing.Point(242, 870);
+            this.movesLabel.Location = new System.Drawing.Point(217, 874);
             this.movesLabel.Name = "movesLabel";
             this.movesLabel.Size = new System.Drawing.Size(55, 20);
             this.movesLabel.TabIndex = 0;
             this.movesLabel.Text = "Moves:";
-            this.movesLabel.Click += new System.EventHandler(this.movesLabel_Click);
             // 
             // gridLabel
             // 
@@ -111,11 +111,20 @@ namespace lights_out
             this.generateButton.Text = "Generate";
             this.generateButton.Click += new System.EventHandler(this.generateButton_Click);
             // 
+            // movesCounter
+            // 
+            this.movesCounter.Location = new System.Drawing.Point(278, 874);
+            this.movesCounter.Name = "movesCounter";
+            this.movesCounter.Size = new System.Drawing.Size(125, 27);
+            this.movesCounter.TabIndex = 8;
+            this.movesCounter.TextChanged += new System.EventHandler(this.movesCounter_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1736, 899);
+            this.Controls.Add(this.movesCounter);
             this.Controls.Add(this.generateButton);
             this.Controls.Add(this.restartButton);
             this.Controls.Add(this.gridX);
@@ -143,5 +152,6 @@ namespace lights_out
         private System.Windows.Forms.NumericUpDown gridX;
         private System.Windows.Forms.Button restartButton;
         private System.Windows.Forms.Button generateButton;
+        private System.Windows.Forms.TextBox movesCounter;
     }
 }
