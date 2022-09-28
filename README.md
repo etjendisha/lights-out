@@ -35,21 +35,18 @@ In the moves textbox, it is shown how many times has the user clicked to complet
 
 
 After the game is complete, a message that 'You Won!' is shown in the screen.\
-By clicking the OK button, the game starts again and we can select the level and start the game again.\
-![image](https://user-images.githubusercontent.com/68497389/192871560-3efbdd3a-4a00-4ade-a0d8-36b2f7d8f023.png)
+By clicking the OK button, the game starts again and we can generate new buttons(lights) again.\
+![image](https://user-images.githubusercontent.com/68497389/191596099-58f7052a-cadb-485b-8480-685fad012670.png)
 
 
 
-
-Also we can restart the game and set its settings to default by clicking the RESTART button.
-
+Also we can restart the game and set its settings to default by clicking the RES
 
 
 ## Time sheet
-This assignment took me 30 working hours to complete it.\
-__Saturday:__ 8 hours (Investigation about WPF and how to create an application with it.)
-__Sunday:__ 8 hours (Creating a small application and testing the WPF features.)
-__Monday:__ 4 hours (Implementing the solution for the task.)
-__Tuesday:__ 4 hours (Implementing the solution for the task.)
-__Wednesday:__ 3 hours (Fixes of the code.)
-__Thursday:__ 3 hours (Testing and refactoring the solution.)
+This assignment took me 9 working hours to complete it.\
+__Tuesday:__ 4 hours, from 19:00 to 00:00.\
+__Wednesday:__ 4 hours, from 18:00 to 22:00.
+
+3 hours of the task were the investigation and brainstorming of the requests and also investigation about Windows Forms.\
+5 hours consits of writing code, testing the application and refactoring the code.
